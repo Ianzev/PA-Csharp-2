@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PA-Csharp-2", "PA-Csharp-2\PA-Csharp-2.csproj", "{CFC0C2EC-DE35-49CB-BAA8-FEE24D79809B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PA-Csharp-2", "PA-Csharp-2\PA-Csharp-2.csproj", "{CFC0C2EC-DE35-49CB-BAA8-FEE24D79809B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{C050DAE6-5A78-4B97-B212-634CB1459054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CFC0C2EC-DE35-49CB-BAA8-FEE24D79809B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC0C2EC-DE35-49CB-BAA8-FEE24D79809B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFC0C2EC-DE35-49CB-BAA8-FEE24D79809B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C050DAE6-5A78-4B97-B212-634CB1459054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C050DAE6-5A78-4B97-B212-634CB1459054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C050DAE6-5A78-4B97-B212-634CB1459054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C050DAE6-5A78-4B97-B212-634CB1459054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Library.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "Library/1.0.0": {
-      "type": "project",
-      "path": "../Library/Library.csproj",
-      "msbuildProject": "../Library/Library.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "Library >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\ianze\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\PA-Csharp-2\\PA-Csharp-2.csproj",
-      "projectName": "PA-Csharp-2",
-      "projectPath": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\PA-Csharp-2\\PA-Csharp-2.csproj",
+      "projectUniqueName": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\Library\\Library.csproj",
+      "projectName": "Library",
+      "projectPath": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\Library\\Library.csproj",
       "packagesPath": "C:\\Users\\ianze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\PA-Csharp-2\\obj\\",
+      "outputPath": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ianze\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\Library\\Library.csproj": {
-              "projectPath": "C:\\Users\\ianze\\source\\repos\\PA-Csharp-2\\Library\\Library.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
